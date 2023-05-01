@@ -1,0 +1,5 @@
+@import "../../Styles/components";
+
+.toggle-container{
+    @include button;
+}

@@ -1,0 +1,9 @@
+// Button styling
+
+@mixin button {
+    border: none;
+    width: 6.25rem;
+    height: 3.125rem;
+    filter:drop-shadow(3px 2px 7px #000000);
+    cursor: pointer;
+}
