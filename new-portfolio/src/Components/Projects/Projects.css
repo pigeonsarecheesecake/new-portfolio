@@ -1,4 +1,37 @@
-.projects {
-  height: 20vh;
-  border-bottom: 1px solid black;
+.projects.page {
+  height: auto;
+  border-bottom: 10px solid black;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.projects-container {
+  width: 70%;
+  min-height: 300px;
+  border: 1px solid blue;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.projects-container > * {
+  margin: 1rem;
+}
+
+.projects-list-container {
+  width: 100%;
+  min-height: 800px;
+  border: 1px solid red;
+  height: 20%;
+  overflow: hidden;
+}
+
+.see-more {
+  border: none;
+  width: 75px;
+  height: 40px;
+  background-color: white;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  cursor: pointer;
 }/*# sourceMappingURL=Projects.css.map */

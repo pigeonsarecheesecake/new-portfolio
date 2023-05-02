@@ -1,6 +1,37 @@
 @import "../../Styles/mixins";
 @import "../../Styles/variables";
 
-.projects{
-    @include page(20vh);
+.projects.page{
+    @include page(auto);
+    width: 100%;
+    // border: 1px solid red;
+    display: flex;
+    justify-content: center;
 }
+
+.projects-container{
+    width: 70%;
+    min-height: 300px;
+    border: 1px solid blue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.projects-container > *{
+    margin: 1rem;
+}
+
+.projects-list-container{
+    width: 100%;
+    min-height: 800px;
+    border: 1px solid red;
+    height:20%;
+    overflow: hidden;
+}
+// Button
+.see-more{
+    @include button;
+}
+
+

@@ -27,7 +27,10 @@ function App() {
         <Home onToggle={handleToggle} mode={mode} logo={logo} />
       </header>
       
-      <Projects />
+      <section>
+        <Projects mode={mode} />
+      </section>
+      
     </div>
   );
 }

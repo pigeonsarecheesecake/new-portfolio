@@ -1,12 +1,13 @@
 @import "../../Styles/mixins";
 @import "../../Styles/variables";
 
-.home-page{
+
+.home.page{
     @include page(100vh);
     @include flex-center(column);
 }
 
-.home-page > *{
+.home.page > *{
     // border: 1px solid black;
     margin: .5rem;
     text-align: center;
@@ -14,7 +15,7 @@
 
 // Desktop
 @media screen and (min-width: 992px){
-    .home-page{
+    .home.page{
         height: 90vh;
     }
 

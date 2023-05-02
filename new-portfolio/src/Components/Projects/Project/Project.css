@@ -1,0 +1,13 @@
+.project {
+  text-align: center;
+}
+
+.project button {
+  border: none;
+  width: 75px;
+  height: 40px;
+  background-color: white;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  cursor: pointer;
+  margin: 1rem;
+}/*# sourceMappingURL=Project.css.map */
