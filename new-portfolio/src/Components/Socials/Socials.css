@@ -1,19 +1,26 @@
-.socials-svg-container {
+.socials {
   display: flex;
-  align-items: center;
   justify-content: center;
-  height: 100%;
-  width: 100%;
+  align-items: center;
+  flex-direction: row;
 }
 
-.socials-svg-container svg {
+.socials svg {
   margin: 0 2rem;
 }
 
-.socials-svg-container.light svg {
+.socials.light svg {
   fill: black;
 }
 
-.socials-svg-container.dark svg {
+.socials.dark svg {
   fill: white;
+}
+
+.socials.light {
+  border-left: 1px solid black;
+}
+
+.socials.dark {
+  border-left: 1px solid white;
 }/*# sourceMappingURL=Socials.css.map */

@@ -13,10 +13,7 @@ export default function NavigationBar({logo, mode}) {
           <a>About</a>
           <a>Contact</a>
         </div>
-        
-        <div className={`socials ${mode}`}>
-          <Socials mode={mode}/>
-        </div>
+        <Socials mode={mode}/>
    </div>
   )
 }

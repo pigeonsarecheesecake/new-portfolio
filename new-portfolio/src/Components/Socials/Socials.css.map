@@ -1,1 +1,1 @@
-{"version":3,"sources":["Socials.scss","Socials.css"],"names":[],"mappings":"AACA;EACE,aAAA;EACA,mBAAA;EACA,uBAAA;EACA,YAAA;EACA,WAAA;ACAF;;ADGA;EACI,cAAA;ACAJ;;ADGA;EACI,WAAA;ACAJ;;ADGA;EACI,WAAA;ACAJ","file":"Socials.css"}
+{"version":3,"sources":["Socials.scss","../../Styles/mixins.scss","Socials.css"],"names":[],"mappings":"AAEA;ECeI,aAAA;EACA,uBAAA;EACA,mBAAA;EACA,mBDjBmB;AEEvB;;AFCA;EACI,cAAA;AEEJ;;AFEA;EACI,WAAA;AECJ;;AFEA;EACI,WAAA;AECJ;;AFEA;EACE,4BAAA;AECF;;AFEA;EACE,4BAAA;AECF","file":"Socials.css"}
