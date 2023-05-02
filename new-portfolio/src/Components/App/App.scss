@@ -1,19 +1,65 @@
+// Global Styling
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;1,100&display=swap');
+@import "../../Styles/variables";
+
 *{
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
 
 .App{
-    border: 1px solid black;
+    // border: 1px solid black;
     width: 100%;
     height: 100vh;
 }
 
+nav{
+    display: none;
+}
+
+h1{
+    font-size: 24px;
+}
+
+h2{
+    font-size: 16px;
+}
+
+// Class for different modes
 .light {
-    background-color: white;
+    background-color: $light-background;
 }
 
 .dark{
-    background-color: #0E131F;
+    background-color: $dark-background;
+    color: white;
 }
+
+// Media Query for desktop
+@media screen and (min-width: 992px){
+    // Headers
+    h1{
+        font-size: 64px;
+    }
+
+    h2{
+        font-size: 36px;
+    }
+
+    a{
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+    // Navigation Bar
+    nav{
+        display: block;
+        height: 10vh;
+    }
+    
+}
+
+
+
 

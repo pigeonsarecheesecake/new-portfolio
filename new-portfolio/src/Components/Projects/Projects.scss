@@ -1,0 +1,6 @@
+@import "../../Styles/mixins";
+@import "../../Styles/variables";
+
+.projects{
+    @include page(20vh);
+}

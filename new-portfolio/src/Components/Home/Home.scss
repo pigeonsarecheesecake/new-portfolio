@@ -1,0 +1,23 @@
+@import "../../Styles/mixins";
+@import "../../Styles/variables";
+
+.home-page{
+    @include page(100vh);
+    @include flex-center(column);
+}
+
+.home-page > *{
+    // border: 1px solid black;
+    margin: .5rem;
+    text-align: center;
+}
+
+@media screen and (min-width: 992px){
+    .home-page{
+        height: 90vh;
+    }
+
+    .logo-container{
+        display: none;
+    }
+}

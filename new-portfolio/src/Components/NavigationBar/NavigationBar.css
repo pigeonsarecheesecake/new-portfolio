@@ -1,0 +1,29 @@
+.navigation-bar {
+  display: grid;
+  grid-template-columns: 2.5fr 1fr;
+  width: 100%;
+  height: 10vh;
+  position: fixed;
+}
+
+.navigation-bar.light {
+  border-bottom: 1px solid black;
+}
+
+.navigation-bar.dark {
+  border-bottom: 1px solid white;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.socials.light {
+  border-left: 1px solid black;
+}
+
+.socials.dark {
+  border-left: 1px solid white;
+}/*# sourceMappingURL=NavigationBar.css.map */

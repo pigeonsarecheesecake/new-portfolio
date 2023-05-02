@@ -1,0 +1,19 @@
+.socials-svg-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+}
+
+.socials-svg-container svg {
+  margin: 0 2rem;
+}
+
+.socials-svg-container.light svg {
+  fill: black;
+}
+
+.socials-svg-container.dark svg {
+  fill: white;
+}/*# sourceMappingURL=Socials.css.map */

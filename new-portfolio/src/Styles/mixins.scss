@@ -1,0 +1,22 @@
+// Page styling
+@mixin page($height){
+    height: $height;
+    border-bottom: 1px solid black;
+}
+
+// Button styling
+@mixin button {
+    border: none;
+    width: 75px;
+    height: 40px;
+    background-color: white;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    cursor: pointer;
+}
+
+@mixin flex-center($direction){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: $direction;
+}

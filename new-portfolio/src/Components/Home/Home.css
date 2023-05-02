@@ -1,0 +1,22 @@
+.home-page {
+  height: 100vh;
+  border-bottom: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.home-page > * {
+  margin: 0.5rem;
+  text-align: center;
+}
+
+@media screen and (min-width: 992px) {
+  .home-page {
+    height: 90vh;
+  }
+  .logo-container {
+    display: none;
+  }
+}/*# sourceMappingURL=Home.css.map */
