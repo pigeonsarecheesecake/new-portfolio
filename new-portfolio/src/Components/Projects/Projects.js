@@ -11,7 +11,7 @@ export default function Projects({mode}){
     return(
         <div className={`projects page ${mode}`}>
             <div className="projects-container">
-                <h1>Projects</h1>
+            <h1>Projects</h1>
                 <div className="projects-list-container">
                     <ProjectsList projects={projects}/>
                 </div>

@@ -2,32 +2,41 @@
 @import "../../Styles/variables";
 
 .projects.page{
-    @include page(auto);
-    width: 100%;
     // border: 1px solid red;
-    display: flex;
-    justify-content: center;
+    @include page(fit-content);
+    @include flex-center(column);
 }
 
+// Modes for borders
+.projects.page.light{
+    @include bottom-border($light-color);
+}
+.projects.page.dark{
+    @include bottom-border($dark-color);
+}
+
+// Projects container
 .projects-container{
     width: 70%;
-    min-height: 300px;
-    // border: 1px solid blue;s
+    border: 1px solid blue;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.projects-container > *{
-    margin: 1rem;
+.projects-container h1{
+    text-align: center;
+    width: 100%;
 }
 
+.projects-container > *{
+    border: 1px solid red;
+    // margin: 1rem 0;
+}
+
+// Projects list container
 .projects-list-container{
-    width: 100%;
-    min-height: 800px;
-    // border: 1px solid red;
-    height:20%;
-    overflow: hidden;
+    border: 1px solid black;
 }
 
 // Button
@@ -35,4 +44,8 @@
     @include button;
 }
 
-
+@media screen and (min-width: 992px){
+    .projects-container h1{
+        text-align: left;
+    }
+}

@@ -4,7 +4,7 @@ export default function Project({project, index}){
     return(
         <li className="project">
             <h2>{index}.</h2>
-            <h2>{project.name}</h2> <br></br>
+            <h2>{project.name}</h2>
             <p>{project.desc}</p>
             <button className="website">
                 <a>sd</a>
