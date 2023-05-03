@@ -8,11 +8,6 @@
   grid-template-rows: 1fr 1fr;
 }
 
-.projects-list > * {
-  border: 1px solid black;
-}
-
-
 @media screen and (min-width: 992px) {
   .projects-list {
     grid-template-columns: 1fr 1fr;

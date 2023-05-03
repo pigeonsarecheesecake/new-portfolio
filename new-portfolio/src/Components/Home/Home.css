@@ -1,10 +1,18 @@
 .home.page {
   height: 100vh;
-  border-bottom: 10px solid black;
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+}
+
+.home.page.light {
+  border-bottom: 1px solid black;
+}
+
+.home.page.dark {
+  border-bottom: 1px solid white;
 }
 
 .home.page > * {

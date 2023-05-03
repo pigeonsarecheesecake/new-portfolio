@@ -1,28 +1,30 @@
 @import "../../Styles/mixins";
+@import "../../Styles/variables";
 
 .socials{
   @include flex-center(row);
 }
 
-.socials svg{
-    margin: 0 2rem;
+a.social{
+  margin: 0 2rem;
+  width: fit-content;
 }
 
 // Socials modes
 .socials.light svg{
-    fill: black;
+    fill: $light-color;
 }
 
 .socials.dark svg{
-    fill: white;
+    fill: $dark-color;
 }
 
 .socials.light{
-  border-left: 1px solid black;
+  border-left: 1px solid $light-color;
 }
 
 .socials.dark{
-  border-left: 1px solid white;
+  border-left: 1px solid $dark-color;
 }
 
 

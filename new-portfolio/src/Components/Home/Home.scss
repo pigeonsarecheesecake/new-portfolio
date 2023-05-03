@@ -1,10 +1,17 @@
 @import "../../Styles/mixins";
 @import "../../Styles/variables";
 
-
 .home.page{
     @include page(100vh);
     @include flex-center(column);
+}
+
+.home.page.light{
+    @include bottom-border($light-color);
+}
+
+.home.page.dark{
+    @include bottom-border($dark-color);
 }
 
 .home.page > *{

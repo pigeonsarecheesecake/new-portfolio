@@ -1,6 +1,6 @@
 .projects.page {
   height: auto;
-  border-bottom: 10px solid black;
+  border-bottom: 1px solid black;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -9,7 +9,6 @@
 .projects-container {
   width: 70%;
   min-height: 300px;
-  border: 1px solid blue;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -22,7 +21,6 @@
 .projects-list-container {
   width: 100%;
   min-height: 800px;
-  border: 1px solid red;
   height: 20%;
   overflow: hidden;
 }

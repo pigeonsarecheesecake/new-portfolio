@@ -5,8 +5,10 @@
   flex-direction: row;
 }
 
-.socials svg {
+a.social {
   margin: 0 2rem;
+  width: -moz-fit-content;
+  width: fit-content;
 }
 
 .socials.light svg {

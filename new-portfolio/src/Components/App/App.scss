@@ -15,16 +15,7 @@
     height: 100vh;
 }
 
-// Navigation
-nav{
-    display: none;
-}
-
 // Pages
-
-section{
-    @include flex-center(row);
-}
 
 h1{
     font-size: 24px;
@@ -34,7 +25,7 @@ h2{
     font-size: 16px;
 }
 
-p{
+a,p{
     font-size: 12px ;
     font-weight: bold;
 }
@@ -62,13 +53,6 @@ p{
 
     a,p{
         font-size: 16px;
-        font-weight: bold;
-    }
-
-    // Navigation Bar
-    nav{
-        display: block;
-        height: 10vh;
     }
     
 }

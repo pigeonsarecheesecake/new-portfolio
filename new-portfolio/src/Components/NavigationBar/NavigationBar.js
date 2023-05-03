@@ -2,7 +2,6 @@ import React from 'react';
 import "./NavigationBar.css";
 import Socials from '../Socials/Socials';
 
-
 export default function NavigationBar({logo, mode}) {
   return (
    <div className={`navigation-bar ${mode}`}>

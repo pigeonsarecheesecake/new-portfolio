@@ -23,9 +23,9 @@ function App() {
         <NavigationBar logo={logo} mode={mode}/>
       </nav>
 
-      <header>
+      <section>
         <Home onToggle={handleToggle} mode={mode} logo={logo} />
-      </header>
+      </section>
       
       <section>
         <Projects mode={mode} />

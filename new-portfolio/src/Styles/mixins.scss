@@ -1,7 +1,11 @@
 // Page styling
 @mixin page($height){
     height: $height;
-    border-bottom: 10px solid black;
+    width: 100%;
+}
+
+@mixin bottom-border($mode){
+    border-bottom: 1px solid $mode;
 }
 
 // Button styling
