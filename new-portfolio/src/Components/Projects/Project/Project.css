@@ -1,9 +1,10 @@
 .project {
   text-align: center;
+  margin-bottom: 3rem;
 }
 
 .project > * {
-  border: 1px solid black;
+  margin-bottom: 1.5rem;
 }
 
 .projects-button {
@@ -23,6 +24,7 @@
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
   cursor: pointer;
   margin: 0 0.5rem;
+  color: black;
 }
 
 @media screen and (min-width: 992px) {

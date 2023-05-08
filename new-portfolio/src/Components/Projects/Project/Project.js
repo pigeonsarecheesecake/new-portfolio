@@ -3,8 +3,7 @@ import "./Project.css"
 export default function Project({project, index}){
     return(
         <li className="project">
-            <h2>{index}.</h2>
-            <h2>{project.name}</h2>
+            <h2>{index}.<br></br>{project.name}</h2>
             <p>{project.desc}</p>
             <div className="projects-button">
                 <a>Site</a>
