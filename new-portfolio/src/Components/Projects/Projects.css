@@ -1,19 +1,11 @@
 .projects.page {
-  min-height: -moz-fit-content;
-  min-height: fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-}
-
-.projects.page.light {
-  border-bottom: 1px solid black;
-}
-
-.projects.page.dark {
-  border-bottom: 1px solid white;
 }
 
 .projects-container {
@@ -27,6 +19,9 @@
 }
 
 @media screen and (min-width: 992px) {
+  .projects.page {
+    height: 100vh;
+  }
   .projects-container h1, .projects-list > .project {
     text-align: left;
   }

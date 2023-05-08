@@ -6,14 +6,6 @@
     @include flex-center(column);
 }
 
-.home.page.light{
-    @include bottom-border($light-color);
-}
-
-.home.page.dark{
-    @include bottom-border($dark-color);
-}
-
 .home.page > *{
     // border: 1px solid black;
     margin: .5rem;

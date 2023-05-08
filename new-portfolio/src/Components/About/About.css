@@ -1,0 +1,128 @@
+.about.page {
+  height: auto;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  display: flex;
+}
+
+.skills-container {
+  margin: 4rem 0;
+  width: 70%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  justify-items: center;
+  row-gap: 2rem;
+}
+
+.skills-container h1 {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.about.light svg {
+  fill: black;
+}
+
+.about.dark svg {
+  fill: white;
+}
+
+.about-description-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.about-description-container.light {
+  border-top: 1px solid black;
+}
+
+.about-description-container.dark {
+  border-top: 1px solid white;
+}
+
+.about-description-container p {
+  text-align: center;
+  margin: 0 3rem 3rem;
+}
+
+.about-description-container h1 {
+  margin: 3rem 0;
+}
+
+@media screen and (min-width: 992px) {
+  .about.page {
+    flex-direction: row;
+  }
+  .skills-container {
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(11, 1fr);
+    width: 20%;
+  }
+  .skills-container h1 {
+    display: none;
+  }
+  .css-skill {
+    grid-row: 2;
+    grid-column: 4;
+  }
+  .github-skill {
+    grid-row: 3;
+    grid-column: 2;
+  }
+  .html-skill {
+    grid-row: 4;
+    grid-column: 5;
+  }
+  .react-skill {
+    grid-row: 5;
+    grid-column: 1;
+  }
+  .js-skill {
+    grid-row: 5;
+    grid-column: 3;
+  }
+  .figma-skill {
+    grid-row: 7;
+    grid-column: 2;
+  }
+  .python-skill {
+    grid-row: 8;
+    grid-column: 4;
+  }
+  .git-skill {
+    grid-row: 9;
+    grid-column: 2;
+  }
+  .java-skill {
+    grid-row: 10;
+    grid-column: 4;
+  }
+  .about-description-container {
+    width: 65%;
+    margin-left: 5rem;
+  }
+  .about-description-container.light {
+    border: none;
+  }
+  .about-description-container.dark {
+    border: none;
+  }
+  .about-description-container p {
+    text-align: left;
+    width: 100%;
+  }
+  .about-description-container h1 {
+    width: 100%;
+  }
+}/*# sourceMappingURL=About.css.map */

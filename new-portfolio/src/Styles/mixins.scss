@@ -1,6 +1,6 @@
 // Page styling
 @mixin page($height){
-    min-height: $height;
+    height: $height;
     width: 100%;
 }
 

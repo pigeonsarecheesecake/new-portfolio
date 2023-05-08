@@ -2,6 +2,7 @@ import React, {useState} from "react";
 import "./App.css"
 import Home from "../Home/Home";
 import Projects from "../Projects/Projects";
+import About from "../About/About";
 import NavigationBar from "../NavigationBar/NavigationBar";
 
 function App() {
@@ -29,6 +30,10 @@ function App() {
       
       <section>
         <Projects mode={mode} />
+      </section>
+
+      <section>
+        <About mode={mode}/>
       </section>
       
     </div>

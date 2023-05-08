@@ -16,6 +16,14 @@
 }
 
 // Pages
+.page.light{
+    @include bottom-border($light-color);
+}
+
+.page.dark{
+    @include bottom-border($dark-color);
+}
+
 h1{
     font-size: 24px;
 }
