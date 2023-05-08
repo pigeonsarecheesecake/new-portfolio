@@ -1,0 +1,85 @@
+@import "../../Styles/variables";
+@import "../../Styles/mixins";
+.contact {
+    @include page(100vh);
+    display: flex;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
+
+// SVG colors for different modes
+.contact.light svg{
+    fill: $light-color;
+}
+
+.contact.dark svg{
+    fill: $dark-color;
+}
+
+// Section a
+.section-a{
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row:1;
+    border-bottom: 1px solid black;
+}
+
+.contact.dark .section-a{
+    border-bottom: 1px solid $dark-color;
+}
+
+// Section b
+.section-b{
+    grid-column: 5;
+    grid-row-start: 1;
+    grid-row-end: 4;
+    border-left: 1px solid black;
+}
+
+.contact.dark .section-b{
+    border-left: 1px solid $dark-color;
+}
+
+// Section c
+.section-c{
+    grid-column-start: 2;
+    grid-column-end: 6;
+    grid-row: 3;
+    border-top: 1px solid black;
+}
+
+.contact.dark .section-c{
+    border-top: 1px solid $dark-color;
+}
+
+// Section d
+.section-d{
+    grid-column: 1;
+    grid-row-start: 1;
+    grid-row-end:4;
+    border-right: 1px solid black;
+}
+
+.contact.dark .section-d{
+    border-right: 1px solid $dark-color;
+}
+
+// Main Content
+.main-content{
+    grid-column-start: 2;
+    grid-column-end: 5;
+    @include flex-center(column);
+}
+
+.main-content > *{
+    margin: .5rem;
+}
+
+.contact-info{
+    @include flex-center(column);
+}
+
+
+

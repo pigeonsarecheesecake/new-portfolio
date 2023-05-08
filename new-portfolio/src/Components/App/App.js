@@ -4,6 +4,7 @@ import Home from "../Home/Home";
 import Projects from "../Projects/Projects";
 import About from "../About/About";
 import NavigationBar from "../NavigationBar/NavigationBar";
+import Contact from "../Contact/Contact";
 
 function App() {
   // Initial states
@@ -35,7 +36,14 @@ function App() {
       <section>
         <About mode={mode}/>
       </section>
+
+      <section>
+        <Contact mode={mode}/>
+      </section>
       
+      <footer>
+        
+      </footer>
     </div>
   );
 }
