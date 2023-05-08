@@ -4,7 +4,7 @@ import Project from "../Project/Project";
 
 export default function ProjectsList({projects}){
     const projectsComponents = projects.map((project, i) =>{
-        return <Project project={project} key={i} index={i}/>
+        return <Project project={project} key={i} index={i+1}/>
     })
     return(
         <ul className="projects-list">

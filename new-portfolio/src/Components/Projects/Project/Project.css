@@ -2,12 +2,34 @@
   text-align: center;
 }
 
-.project button {
+.project > * {
+  border: 1px solid black;
+}
+
+.projects-button {
+  display: flex;
+  justify-content: center;
+}
+
+.project a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
   border: none;
   width: 75px;
   height: 40px;
   background-color: white;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
   cursor: pointer;
-  margin: 1rem;
+  margin: 0 0.5rem;
+}
+
+@media screen and (min-width: 992px) {
+  .projects-button {
+    justify-content: flex-start;
+  }
+  .project a {
+    margin-left: 0;
+  }
 }/*# sourceMappingURL=Project.css.map */

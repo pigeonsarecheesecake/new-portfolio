@@ -18,10 +18,11 @@
 // Projects container
 .projects-container{
     width: 70%;
-    border: 1px solid blue;
+    // border: 1px solid blue;
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 3rem 0;
 }
 
 .projects-container h1{
@@ -31,21 +32,11 @@
 
 .projects-container > *{
     border: 1px solid red;
-    // margin: 1rem 0;
-}
-
-// Projects list container
-.projects-list-container{
-    border: 1px solid black;
-}
-
-// Button
-.see-more{
-    @include button;
+    // margin: 2rem 0;
 }
 
 @media screen and (min-width: 992px){
-    .projects-container h1{
+    .projects-container h1, .projects-list > .project{
         text-align: left;
     }
 }

@@ -3,7 +3,6 @@
 
 .projects-list{
     display: grid;
-    column-gap: 2rem;
     padding: 0;
     list-style-type: none;
     grid-template-columns: 1fr;
@@ -13,11 +12,13 @@
     // border: 1px solid black;
 }
 
+
+
 @media screen and (min-width: 992px){
     .projects-list{
         grid-template-columns: 1fr 1fr;
+        column-gap: 3rem;
     }
-    .projects-list-container{
-        grid-template-columns: 1fr 1fr;
-    }
+
+    
 }

@@ -3,7 +3,29 @@
     text-align: center;
 }
 
-.project button{
+.project > *{
+    border: 1px solid black;
+}
+
+.projects-button{
+    display: flex;
+    justify-content: center;
+}
+
+.project a{
+    @include flex-center(row);
     @include button;
-    margin: 1rem;
+    margin: 0 .5rem;
+}
+
+@media screen and (min-width: 992px){
+    .projects-button{
+        justify-content: flex-start;
+    }
+
+    .project a{
+        margin-left: 0;
+    }
+
+    
 }

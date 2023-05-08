@@ -1,1 +1,1 @@
-{"version":3,"sources":["ProjectsList.scss","ProjectsList.css"],"names":[],"mappings":"AAGA;EACI,aAAA;EACA,qBAAA;OAAA,gBAAA;EACA,UAAA;EACA,qBAAA;EACA,0BAAA;ACFJ;;ADSA;EACI;IACI,8BAAA;ECNN;EDQE;IACI,8BAAA;ECNN;AACF","file":"ProjectsList.css"}
+{"version":3,"sources":["ProjectsList.scss","ProjectsList.css"],"names":[],"mappings":"AAGA;EACI,aAAA;EACA,UAAA;EACA,qBAAA;EACA,0BAAA;ACFJ;;ADWA;EACI;IACI,8BAAA;IACA,qBAAA;SAAA,gBAAA;ECRN;AACF","file":"ProjectsList.css"}

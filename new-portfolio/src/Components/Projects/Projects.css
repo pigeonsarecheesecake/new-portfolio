@@ -18,10 +18,10 @@
 
 .projects-container {
   width: 70%;
-  border: 1px solid blue;
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin: 3rem 0;
 }
 
 .projects-container h1 {
@@ -33,21 +33,8 @@
   border: 1px solid red;
 }
 
-.projects-list-container {
-  border: 1px solid black;
-}
-
-.see-more {
-  border: none;
-  width: 75px;
-  height: 40px;
-  background-color: white;
-  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-  cursor: pointer;
-}
-
 @media screen and (min-width: 992px) {
-  .projects-container h1 {
+  .projects-container h1, .projects-list > .project {
     text-align: left;
   }
 }/*# sourceMappingURL=Projects.css.map */
