@@ -1,0 +1,23 @@
+@import "../../Styles/variables";
+@import "../../Styles/mixins";
+
+.projects-list{
+    // border: 1px solid red;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr;
+    
+}
+
+.projects-list > *{
+    // border: 5px solid yellow;
+    margin-top: 3rem;
+}
+
+
+@media screen and (min-width: 992px){
+   .projects-list{
+    grid-template-columns: 1fr 1fr;
+    column-gap: 3rem;
+   }
+}

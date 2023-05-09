@@ -1,6 +1,5 @@
-.projects.page {
-  border: 1px solid red;
-  height: 80vh;
+.projects {
+  height: auto;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -9,20 +8,11 @@
 }
 
 .projects-container {
-  width: 70%;
-}
-
-.projects-container h1 {
-  text-align: center;
-  width: 100%;
+  width: 80%;
   margin: 3rem 0;
 }
 
-@media screen and (min-width: 992px) {
-  .projects.page {
-    height: 100vh;
-  }
-  .projects-container h1, .projects-list > .project {
-    text-align: left;
-  }
+.projects-container h1 {
+  width: 100%;
+  text-align: center;
 }/*# sourceMappingURL=Projects.css.map */

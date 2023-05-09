@@ -1,29 +1,18 @@
-@import "../../Styles/mixins";
 @import "../../Styles/variables";
+@import "../../Styles/mixins";
 
-.projects.page{
-    border: 1px solid red;
-    @include page(80vh);
+.projects{
+    @include page(auto);
     @include flex-center(column);
 }
 
-// Projects container
 .projects-container{
-    width: 70%;
+    // border: 5px solid green;
+    width: 80%;
+    margin: 3rem 0;
 }
 
 .projects-container h1{
-    text-align: center;
     width: 100%;
-    margin: 3rem 0;    
-}
-
-@media screen and (min-width: 992px){
-    .projects.page{
-        height: 100vh;
-    }
-
-    .projects-container h1, .projects-list > .project{
-        text-align: left;
-    }
+    text-align: center;
 }

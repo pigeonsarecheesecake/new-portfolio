@@ -1,0 +1,29 @@
+@import "../../Styles/mixins";
+.project{
+    list-style: none;
+    width: 100%;
+    @include flex-center(column);
+}
+
+.project-buttons{
+    // border: 1px solid black;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+.project-buttons > a{
+    @include flex-center(row);
+    @include button;
+    margin: 0 .5rem;
+    color: black;
+}
+.project-img{
+    // border: 1px solid green;
+    width: 100%;
+}
+
+.project-img > img{
+    width: 100%;
+    border: 1px solid black;
+}
