@@ -5,16 +5,24 @@ import weatherPic from "../../images/weather.png"
 export const projects = [
     {
         name:"Weather - app",
-        imgsource: weatherPic
+        imgsource: weatherPic,
+        link:"https://wills-weather-app.netlify.app/",
+        github:"https://github.com/pigeonsarecheesecake/weather-react"
     },
     {
         name:"Todo - app",
-        imgsource: todoPic
+        imgsource: todoPic,
+        link:"https://williamryuputra.netlify.app",
+        github:"https://github.com/pigeonsarecheesecake/todo-react"
     },
     {
         name:"Playlist - app",
-        imgsource: jamminPic
+        imgsource: jamminPic,
+        link:"https://jammin-playlist-william.netlify.app/",
+        github:"https://github.com/pigeonsarecheesecake/weather-react"
     },{
         name:"Personal Portfolio",
-        imgsource: portfolioPic
+        imgsource: portfolioPic,
+        link:"https://jammin-playlist-william.netlify.app/",
+        github:"https://github.com/pigeonsarecheesecake/new-portfolio"
     }];
