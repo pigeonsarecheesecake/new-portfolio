@@ -47,6 +47,11 @@ a,p{
     color: white;
 }
 
+footer{
+    @include page(10vh);
+    @include flex-center(row);
+}
+
 // Media Query for desktop
 @media screen and (min-width: 992px){
     // Headers

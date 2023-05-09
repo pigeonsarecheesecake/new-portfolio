@@ -2,8 +2,8 @@
 @import "../../Styles/variables";
 
 .projects.page{
-    // border: 1px solid red;
-    @include page(fit-content);
+    border: 1px solid red;
+    @include page(80vh);
     @include flex-center(column);
 }
 

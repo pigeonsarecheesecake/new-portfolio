@@ -41,8 +41,8 @@ function App() {
         <Contact mode={mode}/>
       </section>
       
-      <footer>
-        
+      <footer className= {`${mode}`} >
+        <p>Copyright © 2022 William Ryuputra. All rights reserved.</p>
       </footer>
     </div>
   );

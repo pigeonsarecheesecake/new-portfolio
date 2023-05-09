@@ -40,6 +40,15 @@ a, p {
   color: white;
 }
 
+footer {
+  height: 10vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
 @media screen and (min-width: 992px) {
   h1 {
     font-size: 64px;

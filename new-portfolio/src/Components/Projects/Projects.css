@@ -1,6 +1,6 @@
 .projects.page {
-  height: -moz-fit-content;
-  height: fit-content;
+  border: 1px solid red;
+  height: 80vh;
   width: 100%;
   display: flex;
   justify-content: center;
