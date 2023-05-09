@@ -3,7 +3,7 @@ import "./Contact.css";
 
 export default function Contact({mode}){
     return (
-        <div className={`contact page ${mode}`}>
+        <div className={`contact page ${mode}`} id="contact-page">
             <div className="section-a"></div>
             <div className="section-b"></div>
             <div className="section-c"></div>

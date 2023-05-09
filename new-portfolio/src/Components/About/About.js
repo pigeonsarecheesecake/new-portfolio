@@ -3,7 +3,7 @@ import "./About.css";
 
 export default function About({mode}){
     return(
-        <div className={`about page ${mode}`}>
+        <div className={`about page ${mode}`} id="about-page">
             {/* Skills */}
             <div className="skills-container">
                 <h1>Skills</h1>

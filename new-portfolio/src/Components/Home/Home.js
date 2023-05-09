@@ -4,7 +4,7 @@ import ToggleButton from "../ToggleButton/ToggleButton";
 
 export default function Home({onToggle, mode, logo}){
     return(
-        <div className={`home page ${mode}`}>
+        <div className={`home page ${mode}`} id="home-page">
             {/* Logo */}
             <div className="logo-container">
                 {logo}

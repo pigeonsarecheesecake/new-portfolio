@@ -1,5 +1,7 @@
 import React from "react";
-import "./Socials.css"
+import "./Socials.css";
+import resume from "../Socials/Ryuputra_William_Resume.pdf"
+
 export default function Socials({mode}){
     return(
         <div className={`socials ${mode}`}>
@@ -14,7 +16,7 @@ export default function Socials({mode}){
                 </svg>
             </a>
             
-            <a href="./Ryuputra_William_Resume.pdf" target="_blank" rel="noopener noreferrer" className="social">
+            <a href={resume} target="_blank" rel="noopener noreferrer" className="social">
                 <svg width="40" height="48" viewBox="0 0 50 58" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M27.4291 28.31C26.6646 28.5468 25.8491 28.6783 25.0001 28.6783C24.151 28.6783 23.3354 28.5468 22.5709 28.31C17.0173 29.156 14.1108 32.9422 14.1108 37.5366H25.0001H35.8892C35.8892 32.9422 32.9831 29.156 27.4291 28.31Z" /><path d="M25 27.0414C28.2921 27.0414 30.9599 24.5655 30.9599 21.5122V19.9439C30.9599 16.8907 28.2921 14.4155 25 14.4155C21.7078 14.4155 19.04 16.8907 19.04 19.9439V21.5122C19.04 24.5655 21.7078 27.0414 25 27.0414Z" /><path d="M39.6903 0.23494H10.3075C4.62482 0.23494 0 4.52575 0 9.79791V47.674C0 52.9461 4.62482 57.2349 10.3075 57.2349H34.9948H36.5761L37.6944 56.1995L48.8837 45.8205L50 44.784V43.3174V9.79791C50 4.52575 45.3752 0.23494 39.6903 0.23494ZM46.183 43.3173H40.4045C37.4181 43.3173 34.9947 45.5642 34.9947 48.3351V53.6944H10.3075C6.723 53.6944 3.81709 50.9979 3.81709 47.674V9.79791C3.81709 6.4721 6.723 3.77551 10.3075 3.77551H39.6903C43.276 3.77551 46.1829 6.4721 46.1829 9.79791V43.3173H46.183Z" />
                 </svg>
             </a>

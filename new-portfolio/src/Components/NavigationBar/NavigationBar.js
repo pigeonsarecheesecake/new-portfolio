@@ -7,10 +7,10 @@ export default function NavigationBar({logo, mode}) {
    <div className={`navigation-bar ${mode}`}>
         <div className='menu'>
           {logo}
-          <a>Home</a>
-          <a>Projects</a>
-          <a>About</a>
-          <a>Contact</a>
+          <a href='#home-page'>Home</a>
+          <a href='#projects-page'>Projects</a>
+          <a href='#about-page'>About</a>
+          <a href='#contact-page'>Contact</a>
         </div>
         <Socials mode={mode}/>
    </div>
