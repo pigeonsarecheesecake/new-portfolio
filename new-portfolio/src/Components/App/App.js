@@ -7,7 +7,7 @@ import NavigationBar from "../NavigationBar/NavigationBar";
 import Contact from "../Contact/Contact";
 
 function App() {
-  // Initial states
+  // Initial state for mode
   const [mode, setMode] = useState("light");
   
   // Logo

@@ -25,4 +25,10 @@ nav {
     grid-column-start: 1;
     grid-column-end: 3;
   }
+  .navigation-bar.light > .menu {
+    border-right: 1px solid black;
+  }
+  .navigation-bar.dark > .menu {
+    border-right: 1px solid white;
+  }
 }/*# sourceMappingURL=NavigationBar.css.map */

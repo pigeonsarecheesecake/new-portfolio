@@ -6,7 +6,7 @@
 }
 
 a.social {
-  margin: 0 2rem;
+  margin: 0 1rem;
   width: -moz-fit-content;
   width: fit-content;
 }
@@ -19,10 +19,8 @@ a.social {
   fill: white;
 }
 
-.socials.light {
-  border-left: 1px solid black;
-}
-
-.socials.dark {
-  border-left: 1px solid white;
+@media screen and (min-width: 992px) {
+  a.social {
+    margin: 0 2rem;
+  }
 }/*# sourceMappingURL=Socials.css.map */

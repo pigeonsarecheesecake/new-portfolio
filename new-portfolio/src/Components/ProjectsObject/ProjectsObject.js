@@ -1,7 +1,9 @@
+// Image imports
 import jamminPic from "../../images/jammin.png";
-import portfolioPic from "../../images/portfolio.png";
-import todoPic from "../../images/todo.png"
-import weatherPic from "../../images/weather.png"
+import todoPic from "../../images/todo.png";
+import weatherPic from "../../images/weather.png";
+
+// Exports an object with projects in it
 export const projects = [
     {
         name:"Weather - app",
@@ -12,7 +14,7 @@ export const projects = [
     {
         name:"Todo - app",
         imgsource: todoPic,
-        link:"https://williamryuputra.netlify.app",
+        link:"https://todo-william.netlify.app",
         github:"https://github.com/pigeonsarecheesecake/todo-react"
     },
     {
@@ -20,9 +22,4 @@ export const projects = [
         imgsource: jamminPic,
         link:"https://jammin-playlist-william.netlify.app/",
         github:"https://github.com/pigeonsarecheesecake/weather-react"
-    },{
-        name:"Personal Portfolio",
-        imgsource: portfolioPic,
-        link:"https://jammin-playlist-william.netlify.app/",
-        github:"https://github.com/pigeonsarecheesecake/new-portfolio"
     }];

@@ -1,6 +1,6 @@
 import React from "react";
 import "./Socials.css";
-import resume from "../Socials/Ryuputra_William_Resume.pdf"
+import resume from "../Socials/Ryuputra_William_Resume.pdf";
 
 export default function Socials({mode}){
     return(

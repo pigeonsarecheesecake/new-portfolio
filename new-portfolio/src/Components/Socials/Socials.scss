@@ -6,7 +6,7 @@
 }
 
 a.social{
-  margin: 0 2rem;
+  margin: 0 1rem;
   width: fit-content;
 }
 
@@ -19,12 +19,11 @@ a.social{
     fill: $dark-color;
 }
 
-.socials.light{
-  border-left: 1px solid $light-color;
+@media screen and (min-width: 992px){
+  a.social{
+    margin: 0 2rem;
+  }
 }
 
-.socials.dark{
-  border-left: 1px solid $dark-color;
-}
 
 

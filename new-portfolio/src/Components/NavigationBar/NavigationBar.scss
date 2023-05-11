@@ -1,6 +1,6 @@
 @import "../../Styles/variables";
 
-// Navigation bar doesnt show on mobile
+// Hide navigation bar on mobile
 nav{
     display: none;
 }
@@ -35,4 +35,13 @@ nav{
         grid-column-start: 1;
         grid-column-end: 3;
     }
+
+    .navigation-bar.light > .menu{
+        border-right: 1px solid $light-color;
+    }
+
+    .navigation-bar.dark > .menu{
+        border-right: 1px solid $dark-color;
+    }
+      
 }
